@@ -72,4 +72,4 @@ Regarding the "Salary expectation per month (Mandatory)" requirement under "Impl
 
 ---
 
-Thank you for reviewing my submission! 🚀
+Thank you for reviewing my submission! I look forward to your guidance. 🚀
