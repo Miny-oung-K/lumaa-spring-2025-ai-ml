@@ -1,7 +1,7 @@
 # Minyoung Kim's Submission
 
 
-## Dataset
+## Dataset: IMDB Top 250 Movies
 
 
 To make sure the dataset was easy to handle, I chose to find a small public dataset. I used the IMDB Top 250 Movies dataset from Kaggle. Each movie is ranked, and the dataset contains the name of the movie, release year, rating, genre, certificate, run time, tagline, budget, and box office.
@@ -48,10 +48,21 @@ I chose to run the code through Jupyter Notebook.
 
 I chose to include both "genre" and "tagline" into TF-IDF vectors to compute cosine similarity because I realized only using the taglines lead to inaccuracy. For example, when I inputed the query "I like romance movies about teenage love", the model only focused on the word "love" or "teen" in the tagline; not necessarily the genre of the movie, which is the most important factor of determining the most similar match.
 
-When given an input description: ""
+When given an input description: "I love thrilling action movies set in space, with a comedic twist."
 my model recommends:
+1. Alien (Horror,Sci-Fi)
+2. The Shawshank Redemption (Drama)
+3. Cinema Paradiso (Drama,Romance)
+4. The Dark Knight (Action,Crime,Drama)
+5. Amores Perros (Drama,Thriller)
 
-When give
+When given an input description: "I like romance movies about teenage love"
+my model recommends:
+1. Pulp Fiction (Crime,Drama)
+2. Cinema Paradiso (Drama,Romance)
+3. Casablanca (Drama,Romance,War)
+4. The Best Years of Our Lives (Drama,Romance,War)
+5. The Apartment (Comedy,Drama,Romance)
 
 ---
 
